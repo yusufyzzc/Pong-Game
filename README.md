@@ -5,7 +5,6 @@ A classic Pong arcade game implementation built with Python's Turtle graphics li
 ### Features
 
 - Two-player gameplay
-- Realistic ball physics with increasing speed during rallies
 - Score tracking system
 - Keyboard controls with continuous paddle movement when keys are held down
 - Classic black and white retro aesthetic
