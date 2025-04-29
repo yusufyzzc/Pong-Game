@@ -16,7 +16,6 @@ ball = Ball()
 scoreboard = Scoreboard()
 
 screen.listen()
-# onkey yerine onkeypress kullanarak basılı tutma özelliği ekleniyor
 screen.onkeypress(r_paddle.go_up, "Up")
 screen.onkeypress(r_paddle.go_down, "Down")
 screen.onkeypress(l_paddle.go_up, "w")
@@ -24,7 +23,7 @@ screen.onkeypress(l_paddle.go_down, "s")
 
 game_is_on = True
 while game_is_on:
-    time.sleep(0.01)  # Topun hızını yavaşlatmak için bekleme ekle
+    time.sleep(0.01) 
     screen.update()
     ball.move()
 
